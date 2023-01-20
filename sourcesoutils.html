@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <title>Membres d'équipe</title>
+  </head>
+  <body>
+    <nav id="navbar_top" class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Films visualization</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Accueil</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#1">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Listes des graphes
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item" href="index.html#1"
+                    >Bénéfices des films par année et par mois</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="index.html#2"
+                    >Genres des films</a
+                  >
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="index.html#3"
+                    >Nuage des mots des genres</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="index.html#4"
+                    >Bénifices en fonction des budgets</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="index.html#5"
+                    >Films entre acteurs</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="membres.html" tabindex="-1"
+                >Membres d'équipe</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="sourcesoutils.html" tabindex="-1"
+                >Sources et outils</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container mt-4 ms-2">
+      <h3><b>Sources et outils </b></h3>
+      <h4>Source de données</h4>
+      <p>
+        Il s'agit d'une exploration des données de The Movie Database (TMDB) de
+        1910 à 2016. Un film à succès commercial ne fait pas que divertir le
+        public, il permet également aux réalisateurs de générer des profits
+        importants. Plusieurs facteurs tels que de bons réalisateurs, des
+        acteurs expérimentés et le moment de la sortie sont importants pour la
+        rentabilité, mais ils ne garantissent pas toujours l'évaluation d'un
+        film. <a href="https://www.themoviedb.org/?language=en"> TMDB</a>
+      </p>
+      <h4>Bokeh</h4>
+      <p>
+        Bokeh est une bibliothèque Python permettant de créer des visualisations
+        interactives pour les navigateurs Web modernes. Elle vous aide à créer
+        de magnifiques graphiques, allant de simples tracés à des tableaux de
+        bord complexes avec des ensembles de données en continu. Avec Bokeh,
+        vous pouvez créer des visualisations alimentées par JavaScript sans
+        avoir à écrire vous-même le moindre JavaScript.
+        <a href="https://docs.bokeh.org/en/latest/"> Bokeh</a>
+      </p>
+
+      <h4>chart studio</h4>
+      <p>
+        Cette librairie contient des utilitaires pour l'interface avec le
+        service Chart Studio de Plotly (à la fois Chart Studio cloud et Chart
+        Studio On-Prem). Avant la version 4 de plotly.py, cette fonctionnalité
+        était incluse dans le paquetage plotly sous le module plotly.plotly.
+        Dans le cadre de la version 4 de plotly.py, la fonctionnalité Chart
+        Studio a été retirée du paquet plotly et publiée dans le paquet
+        chart-studio.
+        <a href="https://chart-studio.plotly.com/create/"> chart-studio</a>
+      </p>
+    </div>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
